@@ -6,8 +6,26 @@ import Navbar from "@/components/Navbar";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Happy birthday!!!",
-  description: "Ulang tahun kamu yang ke-18",
+  title: "Happy Birthday Anna! 🎂",
+  description: "Sebuah web kecil dari Amoo buat ulang tahun Annaa 💖",
+  icons: {
+    icon: "/icon.png",
+  },
+  openGraph: {
+    title: "Happy Birthday Anna! 🎂",
+    description: "Web spesial ultah dari Amoo buat Annaa.",
+    url: "https://alamat-web-lu.vercel.app",
+    siteName: "Happy Birthday Anna",
+    images: [
+      {
+        url: "/hero/hero.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Anna's birthday",
+      },
+    ],
+    type: "website",
+  },
 };
 
 const inter = Inter({
