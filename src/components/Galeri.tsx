@@ -24,7 +24,7 @@ export default function Galeri() {
           className="font-inter text-3xl md:text-4xl text-rose-700"
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ amount: 0.5 }} // ga pake once
+          viewport={{ amount: 0.5 }}
           transition={{ duration: 0.7, ease: "easeOut" }}
         >
           Your Beautiful Pictures 💞
