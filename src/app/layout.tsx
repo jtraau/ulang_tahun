@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Happy Birthday Anna! 🎂",
     description: "Web spesial ultah dari Amoo buat Annaa.",
-    url: "https://alamat-web-lu.vercel.app",
+    url: "https://hbdanna.vercel.app",
     siteName: "Happy Birthday Anna",
     images: [
       {
